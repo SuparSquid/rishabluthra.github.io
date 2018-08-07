@@ -1,0 +1,120 @@
+#intro {
+    
+    background-color: #ffffff;
+    color: #091324;
+    
+}
+
+#introtext {
+    color: #383838;
+}
+
+
+
+.miny {
+    font-size: 1em;
+}
+
+.big {
+    font-size: 12em;
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
+}
+
+.introicon {
+    font-size: 5em;
+    padding-right: 10px;
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
+    
+
+}
+
+.down {
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite, slideInDown 1.5s infinite ;
+}
+
+#first-content {
+    background-color: #3A86FF;
+    color: #ffffff;
+    
+}
+
+
+
+#dark {
+    background-color: #3A86FF;
+    color: #ffffff;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .skill {
+      background-color: #8338EC;
+      color: #ffffff;
+  }
+
+  .project {
+    background-color: #FF006E;
+    color: #ffffff;
+  }
+  
+ 
+
+
+@-webkit-keyframes color-change {
+    0% { color: #3A86FF; }
+    25% {color : #8338EC;}
+    50% { color: #FF006E; }
+    75% { color: #8338EC; }
+    100% { color: #3A86FF;}
+}
+@-moz-keyframes color-change {
+    0% { color: #3A86FF; }
+    25% {color : #8338EC;}
+    50% { color: #FF006E; }
+    75% { color: #FB5607; }
+    100% { color: #FFBE0B;}
+}
+@-ms-keyframes color-change {
+    0% { color: #3A86FF; }
+    25% {color : #8338EC;}
+    50% { color: #FF006E; }
+    75% { color: #FB5607; }
+    100% { color: #FFBE0B;}
+}
+@-o-keyframes color-change {
+    0% { color: #3A86FF; }
+    25% {color : #8338EC;}
+    50% { color: #FF006E; }
+    75% { color: #FB5607; }
+    100% { color: #FFBE0B;}
+}
+@keyframes color-change {
+    0% { color: #3A86FF; }
+    12.5% {color : #8338EC;}
+    25% { color: #FF006E; }
+    37.5% { color: #FB5607;}
+    50% { color: #FFBE0B;}
+    62.5% { color: #FB5607; }
+    75% { color: #FF006E; }
+    87.5% {color : #8338EC;}
+    100% { color: #3A86FF; }
+}
